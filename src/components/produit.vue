@@ -7,7 +7,7 @@
         </div>
         <div class="card-body">
             <button class="btn btn-outline-primary" :class="leProduit.stock>0 ? '' : 'disabled'" @click="achat(leProduit.ident,'super')">Acheter</button>
-            &nbsp;<button class="btn btn-outline-success" @click="approvisionner(leProduit.ident,5)">Réappro</button>
+            &nbsp;<button class="btn btn-outline-success" @click="approvisionner(leProduit.ident,5)">Réapprovisionner</button>
         </div>
     </div>
 </template>
