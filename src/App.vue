@@ -14,7 +14,7 @@
       <h2>Votre panier</h2>
 	  <p v-if="taillePanier==0">Votre panier est vide</p>
 	  <table v-else class="table table-bordered">
-		<caption>Votre panier contient {{ taillePanier }} produit{{ taillePanier==1 ? '' : 's' }}</caption>
+		<caption>Votre panier contient actuellement {{ taillePanier }} produit{{ taillePanier==1 ? '' : 's' }}</caption>
 		<tbody>
 			<tr v-for="article in panier">
 				<td>{{listeProduits.find((p)=>p.ident==article.ident).nom}}</td>
