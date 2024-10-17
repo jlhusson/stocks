@@ -2,7 +2,7 @@
    
     <div class="card">
         <div class="card-body" :class="leProduit.stock>0 ? 'bg-success' : 'bg-danger'">
-            <h5 class="card-title">nom : {{leProduit.nom}} ({{leProduit.prix}} €)</h5>
+            <h5 class="card-title">Nom : {{leProduit.nom}} ({{leProduit.prix}} €)</h5>
             <h5 class="card-subtitle">Stock : {{leProduit.stock }}</h5>
         </div>
         <div class="card-body">
