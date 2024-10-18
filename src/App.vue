@@ -12,7 +12,7 @@
     </div>
     <div class="col-md-4 border">
       <h2>Votre panier</h2>
-	  <p v-if="taillePanier==0">Votre panier est vide</p>
+	  <p v-if="taillePanier==0">Votre panier est vide !</p>
 	  <table v-else class="table table-bordered">
 		<caption>Votre panier contient actuellement {{ taillePanier }} produit{{ taillePanier==1 ? '' : 's' }}</caption>
 		<tbody>
