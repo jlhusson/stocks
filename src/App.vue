@@ -77,6 +77,12 @@
 			nom : 'Tablette' ,
 			prix : 600 ,
 			stock : 5
+		},
+		{
+			ident : 9 ,
+			nom : 'Enceintes' ,
+			prix : 145 ,
+			stock : 2
 		}
 	] );
 
