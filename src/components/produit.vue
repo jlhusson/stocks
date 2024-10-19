@@ -1,8 +1,11 @@
 <template>
    
     <div class="card">
-        <div class="card-body" :class="leProduit.stock>0 ? 'bg-success' : 'bg-danger'">
-            <h5 class="card-title">{{leProduit.nom}} ({{leProduit.prix}} €)</h5>
+        <div class="card-body" :class="leProduit.stock>0 ? 'bg-success' : 'bg-warning'">
+            <h5 class="card-title">{{leProduit.nom}}</h5>
+        </div>
+        <div class="card-body">    
+            <h5 class="card-subtitle">Prix : {{leProduit.prix}} €</h5>
             <h5 class="card-subtitle">Stock : {{leProduit.stock }}</h5>
         </div>
         <div class="card-body">
